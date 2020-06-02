@@ -1,4 +1,4 @@
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 580px) {
   .popup_inner {
     position: absolute;
     bottom: 0;
@@ -8,7 +8,7 @@
     border-radius: 20px;
     height: 643px;
     width: 290px;
-    top: 40%;
+    top: 300px;
   }
 
   .wrap_button {
@@ -21,9 +21,9 @@
   }
   .button_back {
     display: flex;
-    margin-top: 47px;
+    margin-top: 60px;
     float: left;
-  
+
   }
   .back {
     border: none;
@@ -71,4 +71,56 @@
   border-radius: 50%;
   width: 30px;
   height: 30px;
+}
+
+@media screen and (min-width: 581px) { 
+  .popup_inner {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 20px;
+    height: 700px;
+    width: 450px;
+    top: 30%;
+  }
+
+  .wrap_button {
+    text-align: center;
+    margin-top: 0;
+  }
+
+  .popup_heading {
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: -0.672px;
+  }
+  .popup_inform {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 18px;
+    &_detail {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 250px;
+      margin-right: 0;
+    }
+    &_about {
+      width: 290px;
+      display: flex;
+      flex-direction: column;
+      margin-top: 20px;
+      margin-bottom: 30px;
+    }
+    &_date {
+      display: flex;
+      margin-bottom: 0;
+    }
+  }
 }
