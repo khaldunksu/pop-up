@@ -8,7 +8,7 @@
     border-radius: 20px;
     height: 643px;
     width: 290px;
-    top: 0;
+    top: 40%;
   }
 
   .wrap_button {
@@ -19,11 +19,10 @@
   .popup_button {
     display: none;
   }
-
   .button_back {
     display: flex;
-    margin: 60px auto;
-    width: 290px;
+    margin-top: 47px;
+    float: left;
   
   }
   .back {
