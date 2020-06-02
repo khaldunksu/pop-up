@@ -14,16 +14,17 @@ class Popup extends React.Component {
   render() {
     return (
       <div className='popup' >
+         <div className="button_back">
+          <button onClick={this.props.close} className='back'>
+          <i className="arrow left icon"></i>Back to Memorial
+            </button>
+            </div>
         <div className="popup_button">
           <button onClick={this.props.close} className='button-close'>
             <img src={require("../Popup/img/X.png")} alt="button close"/>
             </button>
         </div>
-        <div className="button_back">
-          <button onClick={this.props.close} className='back'>
-          <i className="arrow left icon"></i>Back to Memorial
-            </button>
-            </div>
+       
         <div className='popup_inner' >
           <div className='popup_pic'>
             <Modal
