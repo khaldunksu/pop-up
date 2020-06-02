@@ -25,14 +25,14 @@ class Popup extends React.Component {
             </button>
         </div>
        
-        <div className='popup_inner' >
+        <main className='popup_inner' >
           <div className='popup_pic'>
             <Modal
              contact={this.state.showInform} 
              showInf={this.onclickShowInform}/>
          </div>
           <h1 className="popup_heading">Celebration of life </h1>
-          <div className='popup_inform'>
+          <section className='popup_inform'>
             <div className="popup_inform_detail">
               <div className="popup_inform_date">
               <div className="calendar">
@@ -64,11 +64,11 @@ class Popup extends React.Component {
               ex ea commodo consequat. Duis aute irure dolor in reprehenderit
               in voluptate velit esse cillum dolore eu </p>
             </div>
-          </div>
+          </section>
           <div className="wrap_button">
           <button className="App_button">Attending </button>
           </div>
-        </div>
+        </main>
       </div>
     );
   }

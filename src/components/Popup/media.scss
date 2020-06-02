@@ -73,7 +73,8 @@
   height: 30px;
 }
 
-@media screen and (min-width: 581px) { 
+
+@media screen and (min-width: 581px) and (max-width: 991px) { 
   .popup_inner {
     position: absolute;
     bottom: 0;
